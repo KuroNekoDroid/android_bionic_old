@@ -46,6 +46,7 @@ cc_defaults {
     },
     cflags: [
         "-fstack-protector-all",
+        "-g",
         "-Wall",
         "-Wextra",
         "-Wunused",

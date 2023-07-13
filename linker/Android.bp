@@ -465,6 +465,7 @@ cc_test {
     test_suites: ["device-tests"],
 
     cflags: [
+        "-g",
         "-Wall",
         "-Wextra",
         "-Wunused",
