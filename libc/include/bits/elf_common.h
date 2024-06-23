@@ -844,7 +844,6 @@
 #define	STT_HIPROC	15	/* End of processor reserved range. */
 
 /* Symbol visibility - ELFNN_ST_VISIBILITY - st_other */
-#define	STV_DEFAULT	0x0	/* Default visibility (see binding). */
 #define	STV_INTERNAL	0x1	/* Special meaning in relocatable objects. */
 #define	STV_HIDDEN	0x2	/* Not visible. */
 #define	STV_PROTECTED	0x3	/* Visible but not preemptible. */
